@@ -105,17 +105,17 @@
 
 
 
-<meta name="description" content="初学Haskell，首先是要有一个练习环境的配置，虽然自带的ghci控制台已经足够好，但是深受IDEA的毒害，总想使用开发工具来编写代码，因此，这里写一下配置Haskell语言开发工具的痛苦历程。由于Haskell是小众语言，开发工具支持度较弱，加之国内使用这种语言的公司也较少，安装遇到的问题挺多，百度是一时也无法找到">
+<meta name="description" content="电影《无间道》里，梁朝伟饰演的角色陈永仁很尴尬，警校没毕业就被派到黑社会做卧底，到斗争最激烈的时候，他的身份证明被黑帮打入警局的刘建明（刘德华饰）彻底删除了，与陈永仁单线联系的黄督察（黄秋生饰）也死了，陈永仁再也没法证明自己是警察了，他成了一个黑人。剧情安排他被杀了，这是没办法的事，否则他完成任务之后，如何再回到警局去">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Haskell开发环境配置">
-<meta property="og:url" content="http://suyanlong.github.io/2017/12/02/haskell-env/index.html">
+<meta property="og:title" content="盲签名">
+<meta property="og:url" content="http://suyanlong.github.io/2017/12/19/盲签名/index.html">
 <meta property="og:site_name" content="寸光寸阴的博客">
-<meta property="og:description" content="初学Haskell，首先是要有一个练习环境的配置，虽然自带的ghci控制台已经足够好，但是深受IDEA的毒害，总想使用开发工具来编写代码，因此，这里写一下配置Haskell语言开发工具的痛苦历程。由于Haskell是小众语言，开发工具支持度较弱，加之国内使用这种语言的公司也较少，安装遇到的问题挺多，百度是一时也无法找到，说它是辛酸史也不为过，因此，这里建议大家在学习Hashkell这门语言的时，遇">
+<meta property="og:description" content="电影《无间道》里，梁朝伟饰演的角色陈永仁很尴尬，警校没毕业就被派到黑社会做卧底，到斗争最激烈的时候，他的身份证明被黑帮打入警局的刘建明（刘德华饰）彻底删除了，与陈永仁单线联系的黄督察（黄秋生饰）也死了，陈永仁再也没法证明自己是警察了，他成了一个黑人。剧情安排他被杀了，这是没办法的事，否则他完成任务之后，如何再回到警局去上班呢？谁又能帮他证明警察身份呢？ 如果我是他，出于自保的目的，会在当卧底之前把">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-02T11:31:12.000Z">
+<meta property="og:updated_time" content="2017-12-19T11:31:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Haskell开发环境配置">
-<meta name="twitter:description" content="初学Haskell，首先是要有一个练习环境的配置，虽然自带的ghci控制台已经足够好，但是深受IDEA的毒害，总想使用开发工具来编写代码，因此，这里写一下配置Haskell语言开发工具的痛苦历程。由于Haskell是小众语言，开发工具支持度较弱，加之国内使用这种语言的公司也较少，安装遇到的问题挺多，百度是一时也无法找到，说它是辛酸史也不为过，因此，这里建议大家在学习Hashkell这门语言的时，遇">
+<meta name="twitter:title" content="盲签名">
+<meta name="twitter:description" content="电影《无间道》里，梁朝伟饰演的角色陈永仁很尴尬，警校没毕业就被派到黑社会做卧底，到斗争最激烈的时候，他的身份证明被黑帮打入警局的刘建明（刘德华饰）彻底删除了，与陈永仁单线联系的黄督察（黄秋生饰）也死了，陈永仁再也没法证明自己是警察了，他成了一个黑人。剧情安排他被杀了，这是没办法的事，否则他完成任务之后，如何再回到警局去上班呢？谁又能帮他证明警察身份呢？ 如果我是他，出于自保的目的，会在当卧底之前把">
 
 
 
@@ -143,13 +143,13 @@
 
 
 
-  <link rel="canonical" href="http://suyanlong.github.io/2017/12/02/haskell-env/"/>
+  <link rel="canonical" href="http://suyanlong.github.io/2017/12/19/盲签名/"/>
 
 
 
 
 
-  <title> Haskell开发环境配置 | 寸光寸阴的博客 </title>
+  <title> 盲签名 | 寸光寸阴的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -320,7 +320,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://suyanlong.github.io/2017/12/02/haskell-env/">
+    <link itemprop="mainEntityOfPage" href="http://suyanlong.github.io/2017/12/19/盲签名/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="苏彦龙">
@@ -341,7 +341,7 @@
             
             
               
-                Haskell开发环境配置
+                盲签名
               
             
           </h1>
@@ -356,8 +356,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-02T15:57:33+08:00">
-                2017-12-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-19T19:30:31+08:00">
+                2017-12-19
               </time>
             
 
@@ -374,7 +374,7 @@
 
           
           
-             <span id="/2017/12/02/haskell-env/" class="leancloud_visitors" data-flag-title="Haskell开发环境配置">
+             <span id="/2017/12/19/盲签名/" class="leancloud_visitors" data-flag-title="盲签名">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -403,35 +403,23 @@
       
 
       
-        <p>初学Haskell，首先是要有一个练习环境的配置，虽然自带的ghci控制台已经足够好，但是深受IDEA的毒害，总想使用开发工具来编写代码，因此，这里写一下配置Haskell语言开发工具的痛苦历程。<br>由于Haskell是小众语言，开发工具支持度较弱，加之国内使用这种语言的公司也较少，安装遇到的问题挺多，百度是一时也无法找到，说它是辛酸史也不为过，因此，这里建议大家在学习Hashkell这门语言的时，遇到的问题（奔着学习技术的心态）多多google。废话不多说了，下面开始环境的配置：</p>
-<p><em>系统环境</em></p>
-<p>ubuntu16.04</p>
-<p><em>开发工具</em> </p>
-<p>Visual Studio Code</p>
-<p><em>code插件</em></p>
-<ul>
-<li>Haskell Syntax Highlighting</li>
-<li>Haskell ghc-mod</li>
-<li>haskell-linter</li>
-<li>Haskelly</li>
-</ul>
-<p><em>安装 Haskell工具栈：stack</em></p>
-<p>安装stack，Hashkell编译器（ghc）时，不建议大家直接使用ubuntu apt命令安装，即：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install haskell-platform</span><br><span class="line">sudo apt install haskell-stack</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p>
-<p>由于apt源里面的ghc以及stack比较老旧，建议大家选择最新版本稳定版本，手动安装，一定要选择稳定版本。<br><a href="https://docs.haskellstack.org/en/stable/install_and_upgrade/#manual-download_2" target="_blank" rel="noopener">手动安装stack方式</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#查看stack是否安装成功</span><br><span class="line">:~$ stack --version</span><br><span class="line">Version 1.5.1, Git revision 600c1f01435a10d127938709556c1682ecfd694e (4861 commits) x86_64 hpack-0.17.1</span><br></pre></td></tr></table></figure>
-<p><em>镜像源配置</em></p>
-<p>配置stack以及cabal中科大的<a href="https://mirrors.ustc.edu.cn/help/hackage.html" target="_blank" rel="noopener">镜像源：</a>信息如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">$ cat ~/.stack/config.yaml</span><br><span class="line">package-indices:</span><br><span class="line">  - name: USTC</span><br><span class="line">    download-prefix: https://mirrors.ustc.edu.cn/hackage/package/</span><br><span class="line">    http: https://mirrors.ustc.edu.cn/hackage/00-index.tar.gz</span><br><span class="line">setup-info: &quot;http://mirrors.ustc.edu.cn/stackage/stack-setup.yaml&quot;</span><br><span class="line">urls:</span><br><span class="line">  latest-snapshot: http://mirrors.ustc.edu.cn/stackage/snapshots.json</span><br><span class="line">  lts-build-plans: http://mirrors.ustc.edu.cn/stackage/lts-haskell/</span><br><span class="line">  nightly-build-plans: http://mirrors.ustc.edu.cn/stackage/stackage-nightly/</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">*GHC安装*</span><br><span class="line"></span><br><span class="line">安装好stack工具，以及配置config.yaml镜像源后，执行一下步骤：</span><br></pre></td></tr></table></figure></p>
-<p>#初始化环境<br>stack setup</p>
-<p>#查看是否安装成功<br>stack ghci</p>
-<p>#通过 stack 安装 cabal<br>stack install cabal</p>
-<p>#查看ghc的的路径<br>stack path<br>得到如下信息：<br>~/.stack/snapshots/x86_64-linux/lts-9.14/8.0.2/bin<br>~/.stack/programs/x86_64-linux/ghc-8.0.2/bin<br>并加入到环境系统的PATH环境变量里面，查看是否加入PATH路径</p>
-<p>```<br>启动code，尽情的编写haskell代码吧。</p>
-<p><em>注意事项</em>：</p>
-<ul>
-<li>先安装stack，然后通过stack安装ghc编译器。</li>
-<li>通过stack安装cabal。</li>
-<li>检查ghc、cabal等是否加入PATH路径。</li>
-</ul>
+        <p>电影《无间道》里，梁朝伟饰演的角色陈永仁很尴尬，警校没毕业就被派到黑社会做卧底，到斗争最激烈的时候，他的身份证明被黑帮打入警局的刘建明（刘德华饰）彻底删除了，与陈永仁单线联系的黄督察（黄秋生饰）也死了，陈永仁再也没法证明自己是警察了，他成了一个黑人。剧情安排他被杀了，这是没办法的事，否则他完成任务之后，如何再回到警局去上班呢？谁又能帮他证明警察身份呢？</p>
+<p>如果我是他，出于自保的目的，会在当卧底之前把各种可能性都考虑清楚，首先我会要求警局把我的电脑卧底资料加密，密码由我一人掌握，以防刘建明之流从中获取我的信息。但这还不够，因为刘建明之流虽然看不到我的具体信息，但他有可能找到卧底人信息的加密文件，他一鼓脑都删除了，那我也会同样地悲剧了。</p>
+<p>命运要掌握在我自己手里，根据这个原则，我按与黄督察约定好的条款写了一份卧底证明，即我的掩护名为“阿仁”，韩琛帮覆灭后就回警局工作，升两级且获奖金50万元，并要求黄督察签字盖章。但是，我不能让他看到这份证明，因为黄督察有可能事后变节，把“阿仁”是卧底的情况泄露给黑帮。</p>
+<p>我把证明打印好后，把文字部分遮挡住，只留下空白处让黄督察签字盖章。但是黄督察不干，因为他对我写的证明内容没信心，他认为我可能写的是“卧底1个月即退休，退休金2000万”。</p>
+<p>如何才能让黄督察既看不到我写的证明内容，又让他确信他已经知道了我的证明内容呢？这看似不可能，但这却是信息安全理论中已经解决了的“盲签字”内容。</p>
+<p>我设计了以下的签字流程：</p>
+<p>1、我写了10份掩护名不同的证明，有的叫“阿仁”，有的叫“阿德”等等，其它内容都完全一致，用同一种加密方法进行加密，得到十份不同的密文。特别的是，这种加密方法对明文的变化很敏感，即使两份证明中仅有“仁”“德”两个字不同，那密文也显得毫无关系的样子，这叫作雪崩效应，即一丁点的扰动就会引起结果巨大的差别。</p>
+<p>2、我找黄督察签字盖章，他随机挑出9份，让我当场解密，他看到解密后的明文与我们的约定相同，只是掩护名不同而矣。于是，黄督察放心地在第10张密文上签了字盖了章，他当然不知道我的掩护名是什么，现在我放心了。</p>
+<p>3、我把这份签字盖章的证明妥善保管起来，以备将来回警局时使用，只是掩护名是10个我起好中的随机的一个了，这有点令我不爽，本来是想叫“阿德”的，但黄督察恰好把“阿仁”这份留下来了。</p>
+<p>这里面还有3个问题：</p>
+<p>1、我为什么选择了有雪崩效应的加密算法呢？</p>
+<p>如果没有这种特性，那我加密后的十份密文会非常相似，只有个别位置不相同，黄督察当然会知道不相同之处就是掩护名的密文，他获得了十份掩护名的密文及一一对应的九份掩护名的明文，会很容易地根据这些规律推导出他签字盖章的那份证明的掩护名的明文。而有了雪崩效应，他就找不出掩护名所对应的密文是哪个了，我也就安全了。</p>
+<p>2、如果对同一个密文有两种不同的解法，一种可解成不捣鬼的，一种解成捣鬼的，那我当着黄督察的面用前一种解密算法忽悠他签了字，下个月我拿他签字盖章的证明密文找他要钱，使用后一种捣鬼算法，那他不就傻了吗？</p>
+<p>这其中涉及到了单向函数问题，什么是单向函数呢？给定了被除数和除数，余数就很容易确定了，例如被除数4除以除数3，余数是1，但给定了除数3和余数1，被除数会有无穷多个。正向推很容易得到确定解，反向推就难以得到确定解了，这就是一种单向函数。黄督察规定我必须使用单向函数加密，这就保证了我不可能有第二种解法，否则我就当知名数学家了，还做卧底这苦差干吗？</p>
+<p>3、黄督察为什么也会放心呢？</p>
+<p>因为我捣鬼了1份以上(不含)的证明，当场解开9份后一定会被发现,我只捣鬼了1张，而黄督察恰巧没抽到的概率只占1/10,这是我欺骗成功的唯一机会。为了避免欺骗的发生，他事先跟我约定了一个严重的欺诈惩罚条例，只要发现我作弊就开除甚至法办我，如果他还不放心，可以要求我搞100份或更多的证明来，直到他认定我不会傻到为了这么小的可能性而去冒这么大的风险。</p>
+<p>在“盲签字”运用中，10个样本是极少的，实际中的样本量可能有几百万个之多，几百万分之一的可能性才能获益，而在绝大多数的情况下会受到严重惩戒的事，但凡有一点理智的人都是不会干的。正是基于这样的考虑，“盲签字”就成为了一种很可靠的安全协议，跟上两篇《阿里巴巴的零知识证明》和《象棋大师的身份欺诈》一样，这种安全协议最不怕的就是惟利是图的人，他们对自己获利的小算盘打得越精，就越能牵着他们的鼻子走。</p>
 
       
     </div>
@@ -462,8 +450,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/12/01/three/" rel="next" title="随笔">
-                <i class="fa fa-chevron-left"></i> 随笔
+              <a href="/2017/12/02/haskell-env/" rel="next" title="Haskell开发环境配置">
+                <i class="fa fa-chevron-left"></i> Haskell开发环境配置
               </a>
             
           </div>
@@ -471,10 +459,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/12/19/盲签名/" rel="prev" title="盲签名">
-                盲签名 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
